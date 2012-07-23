@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Math and Statistics Club of GSU</title>
+<link rel="stylesheet" href="3col_rightNav.css" type="text/css" />
+</head>
+<body>
+<div id="masthead">
+  <h1 id="siteName">Math and Statistics Club of GSU</h1>
+  <div id="globalNav"> <a href="index.html">Home</a> | <a href="events.html">Events</a> | <a href="pom.html">Problem of The Month</a> | <a href="contactus.html">Contact Us</a> | <a href="#">Pictures</a> </div>
+ 
+  <h2 id="pageName">Welcome Home...</h2>
+  <div id="breadCrumb"> <a href="http://www2.gsu.edu/~wwwmat/students/undergrad/index.html">Undergraduate</a> / <a href="http://www2.gsu.edu/~wwwmat/students/grad/index.html">Graduate</a> / <a href="http://www2.gsu.edu/~wwwmat/research/index.html">Research</a> / </div>
+</div>
+ 
+<div id="headlines">
+ 
+  <h3>Headlines</h3>
+  <p> Volunteers needed!
+  <br>
+ 
+<a href="http://www.wildernessworks.org">Wilderness Works </a>needs Math Tutors every Wednesday from 6pm-8pm.
+<br>
+ 
+Tutor Math grades 4th through 9th for local non-profit organization. Math and Education Majors Encouraged!!!!
+<br>
+ 
+Please Contact Bill or Majidah at 404-441-1087 or 206-304-8687 for details!
+<br>
+ 
+  
+  <p> Upcoming Math Seminars at GSU <a href="http://www2.gsu.edu/~wwwmat/research/seminars.html">full story...</a> </p>
+  <p> Math Competition! Are you ready... <a href="#">full story when available...</a> </p>
+  <p> Undergraduate Reasearch at GSU <a href="http://www2.gsu.edu/~matfxe/RIMMES.html">check it out...</a></p>
+ 
+  <p> Math Club Launches new Website! </p>
+  <div id="advert">
+    <p>Smile of the day: </p>
+    <p>An infinite crowd of mathematicians enters a bar. 
+      The first one orders a pint, the second one a half pint, the third one a quarter pint... 
+      "I understand", says the bartender - and pours two pints.</p>
+  </div>
+</div>
+<!-- end masthead -->
+ 
+<div id="content">
+ 
+  <div class="feature"><img src="math_head_logo.gif" alt="Where the Math is at..." width="255" height="93" />
+  <h3> Heads Up Math People! </h3>
+ 
+<p> Our next event is a talk on <a href="cryptography.pdf">Modern Cryptography</a> on Tuesday, January 26th from 12-1pm in 796 COE. As always, we'll have pizza and soda.
+ 
+</div>
+ 
+  <div class="story">
+    <br>
+    <h3>About the Math Club...</h3>
+    <P> The Mathematics and Statistics Club of Georgia State University was formed in 2005 to provide a community for students interested in math and stats at GSU. We hold events approximately once a month, and all are welcome to attend.</P>
+ 
+<H2>Officers</h2>
+President: David Smith<br>
+ Vice President: Andy Lightcap<br>
+Secretary/Treasurer: Ahmed Resan<br>
+Webmaster: India Jackson <br>
+ 
+<H2>Advisory Board</h2>
+Dr. Marina Arav<br>
+Dr. Christian Avart <br>
+Dr. Florian Enescu (Faculty Advisor)<br>
+Dr. Iwan Elstak <br>
+ 
+Dr. Mark Grinshpon<br>
+Mr. Donald Harden<br>
+Dr. Tuwaner Lamar <br>
+Dr. Mariana Montiel<br>
+Dr. Tirtha Timsina <br>
+Dr. Yuanhui Xiao <br>
+Dr. Yichuan Zhao<br>
+Dr. Changyong Zhong<br>
+ 
+</P>
+  </div>
+  
+</div>
+<!-- end content -->
+<div id="navBar">
+  <div id="sectionLinks">
+    <h3>GSU Links </h3>
+    <ul>
+	  <li><a href="http://www.gsu.edu">GSU Home</a></li>
+ 
+      <li><a href="http://www2.gsu.edu/~wwwmat/index.html">Dept. of Math and Stats</a></li>
+      <li><a href="http://www.cs.gsu.edu/">Dept. of Computer Science</a></li>
+      <li><a href="http://www.gsu.edu/honors/">The Honors Program</a></li>
+      <li><a href="http://www2.gsu.edu/~wwwmat/faculty_staff/tenured/enescu.html">Dr. Enescu's Page </a></li>
+      <li><a href="http://www2.gsu.edu/~wwwmat/faculty_staff/positions.html">Math Positions Available </a></li>
+    </ul>
+ 
+  </div>
+  <div class="relatedLinks">
+    <h3>Fun Math Sites</h3>
+    <ul>
+      <li><a href="http://www.math.hmc.edu/funfacts/allfacts.shtml">Fun Math Proofs and Facts</a></li>
+      <li></li>
+    </ul>
+ 
+  </div>
+ 
+  <div class="relatedLinks">
+    <h3>Interesting and Related... </h3>
+    <ul>
+      <li><a href="http://royalsociety.tv">British Royal Society T.V. </a></li>
+      <li><a href="http://mathforum.org/dr.math/">Ask Dr. Math</a></li>
+ 
+      <li><a href="http://nasa.gov">NASA</a></li>
+ 
+      <li></li>
+ 
+    </ul>
+  </div>
+</div>
+<!--end navBar div -->
+<div id="siteInfo"><center>Site developed by R.L.Cuilty III for the Math Club of GSU</center></div>
+<br />
+</body>
+ 
+</html>
