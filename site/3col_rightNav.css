@@ -12,6 +12,7 @@
 	padding: 0px;
 	margin: 0px;
 	background: #FFF url("./images/math_head_logo.gif") left top no-repeat;
+	width:1200px;
 }
 
 body{
@@ -66,7 +67,7 @@ h1{
 	padding-left: 20px;
 }
 
-#banner img { position: absolute; right: 30px; top: 5px; float: right; width: 250px;}
+#banner img { position: absolute; left: 950px; top: 5px; float: right; width: 250px;}
 
 h2{
  font-family: Arial,sans-serif;
@@ -133,7 +134,7 @@ label{
 
 #navBar{
   float: right;
-	width: 320px; /* was 20% -- 192 == 20% of 960*/
+	width: 280px; /* was 20% -- 192 == 20% of 960*/
 	margin: 0px;
 	padding: 0px;
 	/* background-color: #eeeeee; */
@@ -144,7 +145,7 @@ label{
 
 #headlines{
 	float:left;
-	width: 20%;
+	width: 300px;
 	border-right: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
 	padding-right: 10px;
@@ -152,7 +153,8 @@ label{
 
 #content{
   float: left;
-  width: 55%;
+  width: 500px;
+  margin: 10px;
   font-size: 1.1em;
 }
 
