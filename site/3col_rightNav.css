@@ -9,13 +9,17 @@
 
 #wrapperAll
 {
+	display: block;
 	padding: 0px;
-	margin: 0px;
 	background: #FFF url("./images/math_head_logo.gif") left top no-repeat;
-	width:1200px;
+	min-width:1195px;
+	max-width:1300px;
+	margin: 0 10px;
+	float: center;
 }
 
 body{
+	display: block;
 	font-family: Arial,sans-serif;
 	color: #333333;
 	line-height: 1.166;	
@@ -152,10 +156,12 @@ label{
 }
 
 #content{
-  float: left;
-  width: 500px;
-  margin: 10px;
-  font-size: 1.1em;
+	display: block;
+	float: left;
+	text-align: left;
+	max-width: 600px;
+	margin: 10px;
+	font-size: 1.1em;
 }
 
 /***********************************************/
