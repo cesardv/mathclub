@@ -58,6 +58,11 @@
 			padding: 5px;
 		}
 		
+		#faqs { cursor:pointer; }
+		#faqs h3.active  { color:#d74646; }
+		#faqs div { height:0; overflow:hidden; position:relative; }
+		#faqs div table /*p*/  { padding:0; margin-bottom:15px; }
+		
 	</style>
 	<script src="./js/libs/jquery-latestsmin.js"></script>
 	<script	src="./js/jquery.tablesorter.min.js"></script>
@@ -94,7 +99,8 @@
 <div id="contentMain"> 
 	
 	<div class="CurrentEventSemester">
-		<h3>Fall 2012</h3>
+		<h3 id="faqs" class="first">Fall 2012</h3>
+		<div class="table">
 		<table id="tblFall2012" class="tablesorter" >
 		<colgroup>
 			<col id="description" />
@@ -158,6 +164,7 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+		</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 	
 	<div class="priorEventSemester">
@@ -697,7 +704,22 @@
 	<script>
 		$(document).ready(function() 
 		{ 
-			$("#tblFall2012").tablesorter(); 
+			/*this next line is for the script that sorts the tables. You can copy this line and change the #tblABCDE id to add sorting to another table */
+			$("#tblFall2012").tablesorter();
+			
+			/* This is for the dropdowns - hides the tables until you actually click on them*/
+			$('#faqs').each(function() {
+				var tis = $(this), state = false, answer = tis.next('div').hide().css('height','auto').slideUp();
+				tis.click(function() {
+					state = !state;
+					answer.slideToggle(state);
+					tis.toggleClass('active',state);
+				});
+			});
+			
+			$('h3#faqs.first').next('div').slideToggle(true); /* makes the first one display always */
+			
+			
 		} 
 	);
 	</script>
