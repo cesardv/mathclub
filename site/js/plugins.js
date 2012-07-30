@@ -9,9 +9,9 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
-/* This is for table sorter */
+/* This is for table sorter 
 $(document).ready(function() 
     { 
         $("#tblFall2012").tablesorter(); 
     } 
-); 
+); */

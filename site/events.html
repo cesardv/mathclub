@@ -9,25 +9,25 @@
 	<link rel="stylesheet" href="./css/tblsorterstyle.css">
 	<style type="text/css">
 	/*this applies to the tables*/
-		td, th{
+		.priorEventSemester td, th{
 			font-family: arial,helvetica,sans-serif;
 			font-size: 12pt;
 			/*ont-size: 1em;*/
 			padding: 5px 10px;
 			}
 			
-		table, thead, td, th {
+		.priorEventSemester table, thead, td, th {
 			/*color: lightgrey;*/
 
 			border: 1px solid black;
 		}
 
-		table {
+		.priorEventSemester table {
 			border-collapse: collapse;
 			width: 98%;
 		}
 
-		thead {
+		.priorEventSemester thead {
 			font-size: 1.2em;
 			font-weight: bold;
 			text-align: center;
@@ -35,7 +35,7 @@
 			background-color: #665;
 		}
 
-		tr.odd {
+		.priorEventSemester tr.odd {
 			background-color: #CCC;
 		}
 		
@@ -51,9 +51,8 @@
 		col#time { width: 130px;}
 		col#date { width: 160px;}
 		
-		.priorEventSemester
-		{
-		font-size: 1em;
+		.priorEventSemester {
+			font-size: 1em;
 			width: auto;
 			margin: 2px;
 			padding: 5px;
@@ -94,9 +93,9 @@
 <!-- ==================== Main Content  =========================    -->
 <div id="contentMain"> 
 	
-	<div class="priorEventSemester">
+	<div class="CurrentEventSemester">
 		<h3>Fall 2012</h3>
-		<table id="tblFall2012"> <!--class="tablesorter" -->
+		<table id="tblFall2012" class="tablesorter" >
 		<colgroup>
 			<col id="description" />
 			<col id="date" />
@@ -694,13 +693,14 @@
 </div> <!-- end of Content -->
  
 </div> <!-- contentwrap ends-->
-<script>
-	$(document).ready(function() 
-    { 
-        $("#tblFall2012").tablesorter(); 
-    } 
-);
-</script>
+	<!-- start table sorting js: -->
+	<script>
+		$(document).ready(function() 
+		{ 
+			$("#tblFall2012").tablesorter(); 
+		} 
+	);
+	</script>
 </div> <!-- end wrapperAll-->
 </body> 
 </html> 
