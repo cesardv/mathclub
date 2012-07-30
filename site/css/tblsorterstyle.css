@@ -19,7 +19,7 @@ table.tablesorter td {
 	padding: 5px;
 }
 table.tablesorter .even {
-	background-color: /*#3D3D3D;*/
+	background-color: #FFF;/*#3D3D3D;*/
 }
 table.tablesorter .odd {
 	background-color: #CCC; /*#6E6E6E;*/
