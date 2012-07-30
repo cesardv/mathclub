@@ -6,13 +6,17 @@
 	
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="3col_rightNav.css" type="text/css" /> 
+	<link rel="stylesheet" href="./css/tblsorterstyle.css">
 	<style type="text/css">
-		td{
+	/*this applies to the tables*/
+		td, th{
 			font-family: arial,helvetica,sans-serif;
 			font-size: 12pt;
+			/*ont-size: 1em;*/
+			padding: 5px 10px;
 			}
 			
-		table, thead, td {
+		table, thead, td, th {
 			/*color: lightgrey;*/
 
 			border: 1px solid black;
@@ -29,11 +33,6 @@
 			text-align: center;
 			color: #FFF;
 			background-color: #665;
-		}
-
-		td {
-			font-size: 1em;
-			padding: 5px 10px;
 		}
 
 		tr.odd {
@@ -61,6 +60,9 @@
 		}
 		
 	</style>
+	<script src="./js/libs/jquery-latestsmin.js"></script>
+	<script	src="./js/jquery.tablesorter.min.js"></script>
+	<!-- <script	src="./js/plugins.js"></script> -->
 </head>
 <body> 
 <div id="wrapperAll">
@@ -94,7 +96,7 @@
 	
 	<div class="priorEventSemester">
 		<h3>Fall 2012</h3>
-		<table>
+		<table id="tblFall2012"> <!--class="tablesorter" -->
 		<colgroup>
 			<col id="description" />
 			<col id="date" />
@@ -104,11 +106,11 @@
 		</colgroup>
 		<thead>
 		<tr>
-			<td scope="col">Description</td>
-			<td scope="col">Date</td>
-			<td scope="col">Time</td>
-			<td scope="col">Location</td>
-			<td scope="col">Advisors</td>
+			<th scope="col">Description</th>
+			<th scope="col">Date</th>
+			<th scope="col">Time</th>
+			<th scope="col">Location</th>
+			<th scope="col">Advisors</th>
 		</tr>
 		</thead>
 		<tbody>
@@ -142,7 +144,7 @@
 		</tr>
 		<tr class="odd">
 			<td>Dr. Howie Weiss (Mathematics Professor GA Tech)</td>
-			<td>Tuesday, Nov 6th</td>
+			<td>Tuesday, November 6th</td>
 			<td>1:30p</td>
 			<td><a href="http://www.gsu.edu/map.html" target="_blank">TBA</a></td>
 			<td>TBA</td>
@@ -692,7 +694,13 @@
 </div> <!-- end of Content -->
  
 </div> <!-- contentwrap ends-->
-
+<script>
+	$(document).ready(function() 
+    { 
+        $("#tblFall2012").tablesorter(); 
+    } 
+);
+</script>
 </div> <!-- end wrapperAll-->
 </body> 
 </html> 
