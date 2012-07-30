@@ -58,10 +58,10 @@
 			padding: 5px;
 		}
 		
-		#faqs { cursor:pointer; }
-		#faqs h3.active  { color:#d74646; }
-		#faqs div { height:0; overflow:hidden; position:relative; }
-		#faqs div table /*p*/  { padding:0; margin-bottom:15px; }
+		.faqs { cursor:pointer; }
+		.faqs h3.active  { color:#d74646; }
+		.faqs div { height:0; overflow:hidden; position:relative; }
+		.faqs div table /*p*/  { padding:0; margin-bottom:15px; }
 		
 	</style>
 	<script src="./js/libs/jquery-latestsmin.js"></script>
@@ -98,8 +98,9 @@
 <!-- ==================== Main Content  =========================    -->
 <div id="contentMain"> 
 	
+	<p>Click on each semester to expand it see its corresponding events: </p>
 	<div class="CurrentEventSemester">
-		<h3 id="faqs" class="first">Fall 2012</h3>
+		<h3 class="faqs first">Fall 2012</h3>
 		<div class="table">
 		<table id="tblFall2012" class="tablesorter" >
 		<colgroup>
@@ -168,7 +169,8 @@
 	</div><!-- end of semester table -->
 	
 	<div class="priorEventSemester">
-		<h3>Spring 2012</h3>
+		<h3 class="faqs">Spring 2012</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -205,10 +207,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+		</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 	
 	<div class="priorEventSemester">
-		<h3>Fall 2011</h3>
+		<h3 class="faqs">Fall 2011</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -273,11 +277,13 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+		</div> <!-- end #table -->
 
 	</div> <!-- end of semester table -->
 	
 	<div class="priorEventSemester">
-		<h3>Fall 2010</h3>
+		<h3 class="faqs">Fall 2010</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -328,10 +334,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+		</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 		
 	<div class="priorEventSemester">
-		<h3>Spring 2010</h3>
+		<h3 class="faqs">Spring 2010</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -359,7 +367,7 @@
 			<td>Software Interest Group</td>
 		</tr>
 		<tr class="odd">
-			<td><a href="announcement-2009-2010 RIMMES.doc">End of Year Celebration</a></td>
+			<td><a href="./announcement-2009-2010_RIMMES.doc">End of Year Celebration</a></td>
 			<td>Friday, April 9th</td>
 			<td>11:00am-1pm</td>
 			<td><a target="_blank" href="http://www.gsu.edu/map.html">COE-796</a></td>
@@ -396,10 +404,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 		
 	<div class="priorEventSemester">
-		<h3>Fall 2009</h3>
+		<h3 class="faqs">Fall 2009</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -450,10 +460,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 		
 	<div class="priorEventSemester">
-		<h3>Spring 2009</h3>
+		<h3 class="faqs">Spring 2009</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -518,10 +530,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 		
 	<div class="priorEventSemester">
-		<h3>Fall 2008</h3>
+		<h3 class="faqs">Fall 2008</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -587,10 +601,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 		
 	<div class="priorEventSemester">
-		<h3>Spring 2008</h3>
+		<h3 class="faqs">Spring 2008</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -641,10 +657,12 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
 	
 	<div class="priorEventSemester">
-		<h3>Fall 2007</h3>
+		<h3 class="faqs">Fall 2007</h3>
+		<div class="table">
 		<table>
 		<colgroup>
 			<col id="description" />
@@ -695,6 +713,7 @@
 		<!-- end of all rows -->
 		</tbody>
 		</table>
+</div> <!-- end #table -->
 	</div><!-- end of semester table -->
   
 </div> <!-- end of Content -->
@@ -708,7 +727,7 @@
 			$("#tblFall2012").tablesorter();
 			
 			/* This is for the dropdowns - hides the tables until you actually click on them*/
-			$('#faqs').each(function() {
+			$('.faqs').each(function() {
 				var tis = $(this), state = false, answer = tis.next('div').hide().css('height','auto').slideUp();
 				tis.click(function() {
 					state = !state;
@@ -717,7 +736,7 @@
 				});
 			});
 			
-			$('h3#faqs.first').next('div').slideToggle(true); /* makes the first one display always */
+			$('h3.faqs.first').next('div').slideToggle(true); /* makes the first one display always */
 			
 			
 		} 
