@@ -11,7 +11,7 @@
 {
 	display: block;
 	padding: 0px;
-	background: #FFF url("./images/math_head_logo.gif") left top no-repeat;
+	background: #FFF url("../images/math_head_logo.gif") left top no-repeat;
 	width:1200px;
 	margin: 0px auto;
 }
@@ -141,7 +141,7 @@ label{
 	padding: 10px 0px 0px 0px;
 	border-bottom: 1px solid #cccccc;
 	width: 100%;
-	background: url("./images/curveAndSurfaces.png") right top no-repeat;
+	background: url("../images/curveAndSurfaces.png") right top no-repeat;
 	background-size: 30%;
 }
 
