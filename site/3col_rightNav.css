@@ -148,7 +148,7 @@ label{
 #navBar{
   float: right;
 	width: 280px; /* was 20% -- 192 == 20% of 960*/
-	margin: 0px;
+	margin: 0 0 0 8px;
 	padding: 0px;
 	/* background-color: #eeeeee; */
 	border-left: 1px solid #cccccc;
@@ -156,20 +156,41 @@ label{
 	overflow: hidden;
 }
 
+/************** #headlines styles **************/
 #headlines{
 	float:left;
 	width: 300px;
 	border-right: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
-	padding-right: 10px;
+	
+	margin: 10px;
+	padding: 10px 10px 20px 10px;
+	font-size: .85em;
+}
+
+#headlines ul {
+	list-style: none;
+	padding: 3px;
+}
+#headlines li {
+	/*text-decoration: underline;*/
+}
+
+#headlines p{
+	padding: 5px 0px 5px 0px;
+}
+
+#headline h3 {
+	font-size: 1.4em;
+	float: right;
+	padding-right: 35px;
 }
 
 #content{
 	display: block;
-	float: left;
+	/*float: left;*/
 	text-align: left;
-	
-	min-width: 950px;
+	width: auto;
 	margin: 10px;
 	font-size: 1.1em;
 }
@@ -228,6 +249,7 @@ label{
 /************** .feature styles ***************/
 
 .feature{
+	margin: 2px 5px 2px 5px; 
 	padding: 0px 0px 10px 10px;
 	font-size: 80%;
 }
@@ -247,7 +269,7 @@ label{
 /************** .aboutMC styles *****************/
 
 .about{
-	clear: both;
+	/*clear: both;*/
 	padding: 10px 0px 0px 10px;
 	font-size: 80%;
 }
@@ -367,30 +389,6 @@ html>body #navBar li {border-bottom: none;}
 }
 
 
-/************** #headlines styles **************/
 
-#headlines{
-	margin: 0px;
-	padding: 10px 0px 20px 10px;
-	font-size: .85em;
-}
-
-#headlines ul {
-	list-style: none;
-	padding: 3px;
-}
-#headlines li {
-	/*text-decoration: underline;*/
-}
-
-#headlines p{
-	padding: 5px 0px 5px 0px;
-}
-
-#headline h3 {
-	font-size: 1.4em;
-	float: right;
-	padding-right: 35px;
-}
 
 
