@@ -20,6 +20,12 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
+video{
+	width: 400px;
+        height: 300px;
+        border: 1px solid black;
+}
+
 
 /* =============================================================================
    Base
