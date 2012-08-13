@@ -277,7 +277,18 @@ label{
 .about p{
 	padding: 0px 0px 10px 0px;
 }
-.about p:first-letter { font-weight: bold;}
+/* .about p:first-letter { font-weight: bold;} */
+p.note 
+{
+	color: #333;
+	border: 2px dashed #BD8110;
+	background-color: #FBF8A9;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding: 20px;
+	width: auto;
+	overflow: hidden;
+}
 
 .about ul {
 	list-style: none;
