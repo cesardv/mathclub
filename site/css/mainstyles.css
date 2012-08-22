@@ -299,10 +299,11 @@ p.note
 
 #siteInfo{
 	clear: both;
-	border: 1px solid #cccccc;
+	border-top: 1px dashed #cccccc;
 	font-size: 75%;
-	color: #cccccc;
+	color: DarkGray;
 	padding: 10px 10px 10px 10px;
+	text-align: center;
 }
 
 #siteInfo img{
