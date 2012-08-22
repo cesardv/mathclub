@@ -272,6 +272,7 @@ label{
 	/*clear: both;*/
 	padding: 10px 0px 0px 10px;
 	font-size: 80%;
+	text-align: left;
 }
 .about h3 { font-size: 1.5em;}
 .about p{
@@ -294,15 +295,18 @@ p.note
 	list-style: none;
 }
 
+.officers { text-align: justify;}
+
 
 /************* #siteInfo styles ***************/
 
 #siteInfo{
 	clear: both;
-	border: 1px solid #cccccc;
+	border-top: 1px dashed #cccccc;
 	font-size: 75%;
-	color: #cccccc;
+	color: DarkGray;
 	padding: 10px 10px 10px 10px;
+	text-align: center;
 }
 
 #siteInfo img{
