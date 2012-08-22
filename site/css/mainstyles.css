@@ -272,6 +272,7 @@ label{
 	/*clear: both;*/
 	padding: 10px 0px 0px 10px;
 	font-size: 80%;
+	text-align: left;
 }
 .about h3 { font-size: 1.5em;}
 .about p{
@@ -293,6 +294,8 @@ p.note
 .about ul {
 	list-style: none;
 }
+
+.officers { text-align: justify;}
 
 
 /************* #siteInfo styles ***************/
