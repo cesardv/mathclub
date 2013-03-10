@@ -289,6 +289,7 @@ p.note
 	padding: 20px;
 	width: auto;
 	overflow: hidden;
+    text-align: center;
 }
 
 .about ul {
