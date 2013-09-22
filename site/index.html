@@ -1,9 +1,14 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Math and Statistics Club of GSU</title>
-<link rel="stylesheet" href="./css/mainstyles.css" type="text/css" /> 
+    <title>Math and Statistics Club of GSU</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- For Bootstrap responsive stuff: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./css/mainstyles.css" type="text/css" />
 </head>
 <body> 
 <div id="wrapperAll">
@@ -210,6 +215,15 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<!-- popular CDN jQuery with local backup -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    if (!window.jQuery) {
+        document.write('<script src="./js/libs/jquery-1.10.2.min.js"><\/script>');
+    }
+</script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
 
 </body> 
 </html> 
